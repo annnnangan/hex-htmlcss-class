@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Castoro", serif;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.left img {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.middle {
+  margin: 0px 20px;
+  width: 288px;
+}
+
+.middle li {
+  margin-bottom: 24px;
+}
+
+.middle p {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+footer {
+  display: flex;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 48px 0px;
+}
