@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Castoro", serif;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 150px;
+}
+
+header h1 {
+  font-size: 128px;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.introduction {
+  background-color: #efefef;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.card {
+  width: 636px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.card p {
+  font-size: 32px;
+}
+
+.details {
+  margin-top: 80px;
+  margin-bottom: 160px;
+}
+
+.details p {
+  font-size: 24px;
+}
+
+.details h2 {
+  font-size: 40px;
+
+  color: #ae0000;
+  border-bottom: 3px solid #ae0000;
+  margin-bottom: 16px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.personal-information p {
+  margin-bottom: 8px;
+}
+
+.education p,
+.work p {
+  margin-bottom: 16px;
+}
+
+.education span,
+.work span {
+  font-style: italic;
+  font-size: 20px;
+  color: #949494;
+}
+
+.awards li {
+  font-size: 24px;
+}
+
+footer {
+  background-color: #000000;
+}
+
+.social {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
