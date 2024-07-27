@@ -193,15 +193,30 @@ button {
   padding: 12px 24px;
 }
 
+.intro {
+  background: url("../assets/week02/background-img.png");
+}
+
 .about {
   color: #15161d;
 }
 
 .contact {
+  background: linear-gradient(#050014 100%, #01021e 89%);
   padding: 129px 0px 129px 0px;
 }
 
 .footer {
   padding: 40px 0px 40px 0px;
   text-align: center;
+}
+
+.social-img {
+  transition: 1s;
+  filter: drop-shadow(0px 4px 4px rgb (0, 0, 0, 0.08));
+}
+
+.social-img:hover {
+  filter: drop-shadow(0px 0px 16px rgb(144, 148, 255));
+  transition: 1s;
 }
