@@ -194,7 +194,7 @@ button {
 }
 
 .intro {
-  background: url("../assets/week02/background-img.png");
+  background-image: url("../assets/week02/background-img.png");
 }
 
 .about {
